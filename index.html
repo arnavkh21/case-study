@@ -1,0 +1,275 @@
+<html>
+    <head>
+        <title>Mobile net vs google lens</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ol class="a">
+            <!--1test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="bottle.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>adhari water bottle</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>water bottle</span>
+                </h5>
+                <!--output end and div end(mini div)-->
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+            </div>
+            <br>
+               <!--2test div start-->
+               <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="pillow.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>red violet pillow with gold trim</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>lighter</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+               <!--3test div start-->
+               <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="nerfed.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>Rugby toy</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>spotlight</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <!--4test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="cube.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>Rubik's cube 3x3</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>shoji</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+             <!--5test div start-->
+             <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="cap.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>Kids hedawear</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>football helmet</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <!--6test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="pen.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>uni ball PIN 0.7mm</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>stethoscope</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <!--7test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="mouse.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>HP-Wired mouse</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>mouse</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <!--8test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="gm mouse.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>gaming mouse</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>stove</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <!--9test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="headphones.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>wireless headphones</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span>electric fan</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <!--1010101010101010101010test div start-->
+            <div class="test-1-1-1-1 col-xs-12">
+                <!--li start-->
+                <li class="col-sm-4 col-xs-12">
+                    <b class="a">test Image - </b>
+                    <img src="ball.png" class="img_responsive">
+                </li>
+                <!--li end and output-->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>-
+                    <span>soccer balls</span>
+                </h5>
+                <!--output 2 -->
+                <h5 class="a col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET</b>-
+                    <span> soccer ball</span>
+                </h5>
+                <div class="mini_result col-xs-12" >
+                    <h4 class="a">Result-</h4>
+                    <hr>
+                    <h4 class="a">Draw but GOOGLE LENS is more accurate</h4>
+                </div>
+                <!--output end and div end-->
+            </div>
+            <br>
+            <br>
+        </ol>
+        <center>
+            <div class="ab">
+                GOOGLE LENS HAS asnwerd all correctly and mobile net has answered one, GOOGLE LENS IS WAY MORE ACCURATE THAN MOBILENET.
+            </div>
+        </center>
+        
+    </body>
+</html>
